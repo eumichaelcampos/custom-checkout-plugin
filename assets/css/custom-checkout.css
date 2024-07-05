@@ -1,0 +1,79 @@
+.custom-checkout-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.custom-checkout-form p {
+    flex: 1 1 45%;
+    margin-bottom: 15px;
+}
+
+.custom-checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.custom-checkout-form input[type="text"],
+.custom-checkout-form input[type="email"],
+.custom-checkout-form input[type="date"],
+.custom-checkout-form input[type="password"],
+.custom-checkout-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.custom-checkout-form input[type="submit"] {
+    background-color: #007cba;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.custom-checkout-form input[type="submit"]:hover {
+    background-color: #005a9c;
+}
+
+
+.custom-checkout-form h3 {
+    width: 100%;
+    margin-bottom: 0 !important;
+    font-size: 25px !important;
+}
+.custom-checkout-form a.botao-baixar {
+    background: #ecb340;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    margin-top: -40px;
+    color: #fff;
+    font-weight: bold;
+}
+.custom-checkout-form a.botao-baixar:hover{
+    background: #2a2634;
+    color: #fff;
+}
+section.woocommerce-order-details {
+    display: none !important;
+}
+.woocommerce-form-coupon-toggle.cupom-checkout {
+    display: block !important;
+}
+.woocommerce-form-coupon-toggle.cupom-checkout .woocommerce-info::before{
+    display: none;
+}
+.woocommerce-form-coupon-toggle.cupom-checkout .woocommerce-info a.showcoupon {
+    background: #ecb340;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+}
